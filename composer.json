@@ -1,0 +1,21 @@
+{
+    "name": "vadim/test-php.loc",
+    "description": "test",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vadim Saratov",
+            "email": "saratov.vm@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "twbs/bootstrap": "4.0.0-beta.2"
+    },
+    "autoload":{
+        "psr-4":{
+            "test\\": ""
+        }
+    }
+}
